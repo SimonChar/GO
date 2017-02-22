@@ -6,6 +6,11 @@ import (
 )
 
 func sqrt(x float64) float64 {
+
+	if x==0{
+	return 0	
+	}
+	
 	z := 1.0 //we select a random number
 	
 	for i := 0; i< int(x); i++{		
